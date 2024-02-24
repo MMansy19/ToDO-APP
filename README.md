@@ -1,10 +1,11 @@
 # React - TodoList
 
-[todoListApp](https://woltergray.github.io/toDoList/)
 
 This is a simple todo application built with React.js. It allows users to create, update, and delete tasks, drag the task, sort the tasks, and change the theme from light to dark.
 
 This is a solution to the [Todo app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW).
+
+## [TodoList](https://woltergray.github.io/toDoList/)
 
 ## Features
 
