@@ -1,57 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!doctype html>
+<html lang="en" class="dark">
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/pen.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo App</title>
+</head>
 
-    <title>Frontend Mentor | Todo app</title>
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="styles.css" />
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <main id="main">
-      <header id="header">
-        <h1 id="title">TODO</h1>
-        <button id="theme-button">
-          <img src="./images/icon-moon.svg" alt="moon icon - theme change" />
-        </button>
-      </header>
-      <section class="task bar" id="new-task">
-        <label class="custom-radio"></label>
-        <input type="text" id="new-task-input" placeholder="Create a new todo..." />
-      </section>
-      <section class="bar" id="tasks">
-        <ul id="task-list">          
-        </ul>
-        <div class="task" id="actions-bar">
-          <p id="items-left">0 items left</p>
-          <div id="middle-sort">
-            <button id="all" class="pressed">All</button>
-            <button id="active">Active</button>
-            <button id="completed">Completed</button>
-          </div>
-
-          <button id="clear-completed">Clear Completed</button>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <p id="instruction">Drag and drop to reorder list</p>
-    </footer>
-  </body>
 </html>
