@@ -64,10 +64,13 @@ Feel free to contribute or report issues!
 
 This project is licensed under the MIT License
 
-## Authors
+## Contact
 
-- Wolter Gray - [wolterGray](https://github.com/wolterGray)
-- Frontend Mentor - [@wolterGray](https://www.frontendmentor.io/profile/wolterGray)
+- [Author](https://github.com/MMansy19)
+- [Website](https://mahmoud-mansy-portfolio.netlify.app/)
+- [Email](mailto:mahmoud2abdalfattah@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/mahmoud-mansy-a189a5232)
+
 
 ## What I learned
 
